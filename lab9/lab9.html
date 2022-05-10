@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Лабораторная работа 9</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="D:\Операционные системы\Лабораторные работы\Лабораторная работа 9\css.css"/>
+    </head>
+    <body>
+        <div class="block">
+            <div class="block1">
+                <h3>Добавление процесса</h3>
+                <p>Введите имя процесса:</p>
+                <p><input type="text" id="name"/></p>
+                <p>Введите размер процесса:</p>
+                <p><input type="text" id="size"/></p>
+                <p><button id="add">Добавить процесс</button></p>
+            </div>
+            <div class="block2">
+                <p>Объем памяти: 50 Кб</p>
+                <p>Объем свободной памяти:<span id="span1"></span></p>
+                <p>Количество запросов на выделение памяти:<span id="span2"></span></p>
+                <p>Количество удовлетворённых запросов:<span id="span3"></span></p>
+            </div>
+        </div>
+        <div id="list">
+            <h3>Список сегментов</h3>
+        </div>
+        <h3>Удаление  процесса</h3>
+        <p>Введите имя процесса, который необходимо удалить:</p>
+        <p><input type="text" id="delname"/></p>
+        <p><button id="del">Удалить процесс</button></p>
+        <h3>Расположение элементов в памяти</h3>
+        <div id="table"></div>
+        <script type = 'text/JavaScript' src ="D:\Операционные системы\Лабораторные работы\Лабораторная работа 9\JS.js"></script>
+    </body>
+</html>
