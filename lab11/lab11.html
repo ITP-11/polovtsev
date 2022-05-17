@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Лабораторная работа 11</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="D:\Операционные системы\Лабораторные работы\Лабораторная работа 11\css.css"/>
+    </head>
+    <body>
+        <h2>Модель файловой системы</h2>
+        <hr>
+        <div>
+            <div class="block1">
+                <h3>Добавление файла</h3>
+                <p>Введите имя файла:</p>
+                <p><input type="text" id="addFileName"/></p>
+                <p>Введите размер файла:</p>
+                <p><input type="text" id="addFileSize"/></p>
+                <p>Введите имя директории:</p>
+                <p><input type="text" id="addDirName"/></p>
+                <button id="addFile">Добавить</button>
+            </div>
+            <div class="block2">
+                <h3>Удаление файла</h3>
+                <p>Введите имя файла:</p>
+                <p><input type="text" id="delFileName"/></p>
+                <button id="deleteFile">Удалить</button>
+            </div>
+        </div>
+        <hr>
+        <h3>Расположение файлов в памяти</h3>
+        <div id="table"></div>
+        <p>Свободно: <span id="freeSize">160 Кб</span></p>
+        <script type="text/JavaScript" src ="D:\Операционные системы\Лабораторные работы\Лабораторная работа 11\js.js"></script>
+    </body>
+</html>

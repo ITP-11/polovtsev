@@ -1,0 +1,13 @@
+h2, h3{
+    text-align: center;
+}
+
+.block1 {
+    width: 200px;
+    display: inline-block;
+}
+
+.block2 {
+    width: 200px;
+    float: right;
+}
