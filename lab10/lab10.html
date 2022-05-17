@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Лабораторная работа 10</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="D:\Операционные системы\Лабораторные работы\Лабораторная работа 10\css.css"/>
+    </head>
+    <body>
+        <div>
+            <div class="block1">
+                <h3>Выделение памяти</h3>
+                <p>Введите размер памяти:</p>
+                <p><input type="text" id="inpSizeOfMemory"/></p>
+                <p>Введите количество страниц:</p>
+                <p><input type="text" id="inpNumOfPages"/></p>
+                <p><button id="allocButton">Выделить память</button></p>
+            </div>
+            <div class="block2">
+                <h3>Информация</h3>
+                <p>Объём памяти:<span id="span1"></span></p>
+                <p>Число страниц:<span id="span2"></span></p>
+                <p>Число свободных страниц (%):<span id="span3"></span></p>
+                <p>Размер страницы:<span id="span4"></span></p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3>Добавление процесса</h3>
+            <p>Введите имя процесса:</p>
+            <p><input type="text" id="addNameOfProc"/></p>
+            <p>Введите размер процесса:</p>
+            <p><input type="text" id="addSizeOfProc"/></p>
+            <p><button id="addProc">Добавить процесс</button></p>
+        </div>
+        <hr>
+        <div>
+            <h3>Добавление и удаление страницы</h3>
+            <p>Введите имя процесса:</p>
+            <p><input type="text" id="NameOfProc"/></p>
+            <p>Введите имя страницы:</p>
+            <p><input type="text" id="NameOfPage"/></p>
+            <p><button id="addPage">Добавить страницу</button></p>
+            <p><button id="delPage">Удалить страницу</button></p>
+        </div>
+        <hr>
+        <div>
+            <h3>Таблица страниц</h3>
+            <div id="table"></div>
+        </div>
+        <script type="text/JavaScript" src ="D:\Операционные системы\Лабораторные работы\Лабораторная работа 10\js.js"></script>
+    </body>
+</html>

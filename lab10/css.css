@@ -1,0 +1,13 @@
+.block1 {
+    width: 230px;
+    display: inline-block;
+}
+
+.block2 {
+    width: 270px;
+    float: right;
+}
+
+h3 {
+    text-align: center;
+}
